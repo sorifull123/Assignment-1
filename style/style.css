@@ -35,6 +35,7 @@ body {
   font-size: 18px;
   border-radius: 10px;
   border: 1px solid#006A50;
+  cursor: pointer;
 }
 
 .main-title {
@@ -86,6 +87,7 @@ body {
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  cursor: pointer;
 }
 
 .img-container img {
@@ -231,6 +233,7 @@ body {
   color: white;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 #learn-button-tow {
@@ -242,6 +245,7 @@ body {
   color: white;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 #learn-button-three {
   border-radius: 8px;
@@ -252,6 +256,7 @@ body {
   color: white;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 #yunus-quotes {
@@ -338,6 +343,7 @@ body {
   border-radius: 4px;
   background: rgb(198, 228, 214);
   padding: 10px 14px 10px 14px;
+  cursor: pointer;
 }
 
 /* News Section Start here */
@@ -393,4 +399,152 @@ body {
   padding: 10px 10px;
   border: none;
   font-size: 18px;
+  cursor: pointer;
+}
+
+/* dontate-section start here */
+
+#dontate-div {
+  margin-left: 160px;
+  margin-right: 160px;
+  width: 1280px;
+  text-align: center;
+}
+
+#dontate-div h1 {
+  font-size: 40px;
+}
+
+#dontate-div p {
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.donate-card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 32px;
+}
+
+.card-one-hundred {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+}
+
+.ammount-input {
+  width: 1032px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: none;
+}
+
+.donate-btn {
+  margin-top: 24px;
+  width: 151px;
+  padding: 15px 16px;
+  background-color: #006a50;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+/* subscribe-Section start here */
+
+#subscribe-Section {
+  margin-left: 160px;
+  margin-right: 160px;
+  width: 1280px;
+  height: 395px;
+  background-color: #c6e4d6;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-item-container h1 {
+  margin-top: 16px;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.sub-item-container p {
+  color: #494747;
+  font-family: Fira Sans;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.form-contaner {
+  width: 750px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.sub-btn {
+  width: 150px;
+  height: 60px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  border: none;
+  padding: 17px 34px 17px 34px;
+  color: white;
+  cursor: pointer;
+}
+
+.input-emil {
+  border: none;
+  width: 600px;
+  height: 60px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer-section h1 {
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 32px;
+}
+
+.footer-section {
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 150px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.icon-container,
+.facebook {
+  padding: 5px;
+}
+.icon-container,
+.insta {
+  padding: 5px;
+}
+.icon-container,
+.x {
+  padding: 5px;
+}
+
+.thin-line {
+  width: 900px;
+  height: 1px;
+  background-color: #d9d0d0;
 }
