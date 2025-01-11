@@ -269,9 +269,15 @@ body {
 
 .quotes-container {
   padding: 40px;
-  background-image: url('../assets/quote-bg.png');
   background-repeat: no-repeat;
   margin-left: 20px;
+  margin-top: 10px;
+}
+
+#quotes-des {
+  margin-bottom: 50px;
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
 }
 
 .quotes-container h3 {
@@ -279,13 +285,10 @@ body {
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 15px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
-.quotes-container p {
-  color: red;
+#name-title {
+  padding: -20;
 }
 
 /* Opinion Section start here */
@@ -297,17 +300,14 @@ body {
   margin-top: 80px;
 }
 
-#opinion h1 {
-  color: rgb(14, 14, 14);
+#opinion-section h1 {
+  color: rgb(0, 0, 0);
   font-family: Fira Sans;
   font-size: 40px;
-  line-height: 48px;
 }
 
 .main-box {
   margin-top: 24px;
-  /* display: flex; */
-  /* flex-direction: column; */
   border: 1px solid;
   border-radius: 16px;
   background: rgb(255, 255, 255);
@@ -402,20 +402,20 @@ body {
   cursor: pointer;
 }
 
-/* dontate-section start here */
+/* donate section start here */
 
-#dontate-div {
+#donate-div {
   margin-left: 160px;
   margin-right: 160px;
   width: 1280px;
   text-align: center;
 }
 
-#dontate-div h1 {
+#donate-div h1 {
   font-size: 40px;
 }
 
-#dontate-div p {
+#donate-div p {
   margin-top: 24px;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
@@ -435,7 +435,7 @@ body {
   cursor: pointer;
 }
 
-.ammount-input {
+.amount-input {
   width: 1032px;
   padding: 20px;
   margin-bottom: 30px;
