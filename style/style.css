@@ -435,6 +435,45 @@ body {
   cursor: pointer;
 }
 
+.card-tow-hundred {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+}
+
+.card-five-hundred {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+}
+
+.card-one-thousand {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+}
+
+.card-one-hundred:hover {
+  background-color: #c6e4d6;
+}
+
+.card-tow-hundred:hover {
+  background-color: #c6e4d6;
+}
+
+.card-five-hundred:hover {
+  background-color: #c6e4d6;
+}
+
+.card-one-thousand:hover {
+  background-color: #c6e4d6;
+}
 .amount-input {
   width: 1032px;
   padding: 20px;
